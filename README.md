@@ -23,4 +23,8 @@ biblioteca “Servo.h” (já existente na IDE Arduino) para a
 manipulação de servo motores. 
 
 
+- [Web Client](https://github.com/EdneiFNeto/ArduinoProject/tree/main/web-client) O objetivo destes projetos é criar uma pagina HTML e o usuário enviar 
+comando da pagina web para o arduino.
+
+
 
