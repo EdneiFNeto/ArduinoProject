@@ -15,5 +15,8 @@ trânsito.
 acender e apagar (frequência de pisca-pisca) e a
 intensidade da luminosidade de um LED. 
 
+- [Buzzer](https://github.com/EdneiFNeto/ArduinoProject/tree/main/buzzer) O objetivo deste projeto é acionar um buzzer
+utilizando as funções tone() e noTone().  
+
 
 
