@@ -11,5 +11,9 @@ Emissor de Luz (LED)
 no Projeto 1, reproduzir o funcionamento de um sinal de
 trânsito.
 
+- [Potenciômetro](https://github.com/EdneiFNeto/ArduinoProject/tree/main/potentiometro) O objetivo deste projeto é controlar a frequência de
+acender e apagar (frequência de pisca-pisca) e a
+intensidade da luminosidade de um LED. 
+
 
 
