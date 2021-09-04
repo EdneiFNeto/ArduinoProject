@@ -18,5 +18,9 @@ intensidade da luminosidade de um LED.
 - [Buzzer](https://github.com/EdneiFNeto/ArduinoProject/tree/main/buzzer) O objetivo deste projeto é acionar um buzzer
 utilizando as funções tone() e noTone().  
 
+- [Servo Motor](https://github.com/EdneiFNeto/ArduinoProject/tree/main/servo-motor) O objetivo destes projetos é mostrar o uso da
+biblioteca “Servo.h” (já existente na IDE Arduino) para a
+manipulação de servo motores. 
+
 
 
