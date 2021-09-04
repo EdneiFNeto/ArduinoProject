@@ -3,5 +3,5 @@
 ## Blink
 Ligando Led
 ## Screenshots
-![Login](screenshots/blink.PNG "Add Students")
+![Blink](screenshot/blink.PNG "Blick")
  
