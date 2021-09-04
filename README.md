@@ -1,7 +1,8 @@
 # ArduinoProject
 
 ## Blink
-Ligando Led
+Ligando e desligando Led, com intervalo de 3 segundos.
+
 ## Screenshots
 ![Blink](screenshot/blink.PNG "Blick")
 
