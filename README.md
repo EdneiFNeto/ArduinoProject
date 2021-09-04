@@ -1,69 +1,15 @@
-# ArduinoProject
+# Arduino
+Projetos de exemplo criado em arduino para realizar automação residencial. 
 
-## Blink
-Ligando e desligando Led, com intervalo de 3 segundos.
+## Projetos
 
-## Screenshots
-![Blink](screenshot/blink.PNG "Blick")
+- [Blink](https://material.io/) Objetivo deste projeto é utilizar uma porta digital
+do Arduino para controlar o funcionamento de um Diodo
+Emissor de Luz (LED)
 
-```c
-int LED = 13;
-
-void setup()
-{
-  pinMode(LED, OUTPUT);
-}
-
-void loop()
-{
-  digitalWrite(LED, HIGH);
-  delay(1000); 
-  digitalWrite(LED, LOW);
-  delay(1000); 
-}
-```
+- [Semáforo](https://material.io/) Aplicando o conceito de Saídas Digitais, abordado
+no Projeto 1, reproduzir o funcionamento de um sinal de
+trânsito.
 
 
-## Semáforo
-Reproduzir um cenário similar ao de um semáforo de veículos.
 
-## Screenshots
-![Blink](screenshot/semaforo.PNG "Blick")
-
-
-```c
-int RED_LED = 13;
-int YELLOW_LED = 12;
-int GREEN_LED = 11;
-
-void setup()
-{
-  pinMode(RED_LED, OUTPUT);
-  pinMode(YELLOW_LED, OUTPUT);
-  pinMode(GREEN_LED, OUTPUT);
-
-}
-
-void loop()
-{
-  digitalWrite(RED_LED, HIGH);
-  delay(1000);
-  
-  digitalWrite(RED_LED, LOW);
-  delay(1000); 
-  
-  digitalWrite(YELLOW_LED, HIGH);
-  delay(1000);
-  
-  digitalWrite(YELLOW_LED, LOW);
-  delay(1000); 
-  
-  digitalWrite(GREEN_LED, HIGH);
-  delay(1000);
-  
-  digitalWrite(GREEN_LED, LOW);
-  delay(1000); 
-  
-}
-```
- 
