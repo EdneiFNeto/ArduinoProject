@@ -65,51 +65,39 @@ void loop() {
 
             if(c == '\n' && currentLineIsBlank){
                 
-                //============================================================
-                //CODIGO HTML
-                //============================================================
-                
-                client.println("<!DOCTYPE html>");
-                client.println("<html lang=\"pt-br\">");
-                client.println("<head>");
-                client.println("<title>Modulo Ethernet Arduino</title>");
-                client.println("<meta http-equiv=\"refresh\" content=\"2\" charset=\"UTF-8\">");
-                client.println("</head>");
-                client.println("<body style=\"background-color: #DDD;\">");
-                client.println("<br>");
-                client.println("<form align=\"center\">");
-                client.println("<label style=\"font-size: 18pt;\">"+msg+"</label>");
-                client.println("<br>");
-                client.println("<br>");
-                client.println("<button type=\"submit\" formaction=\"ledon\">Ligar</button>");//Button HTML5
-                client.println("<button type=\"submit\" formaction=\"ledof\">Desligar</button>");//Button HTML5
-                client.println("</form>");
-                client.println("<br>");
-                client.println("</body>");
-                client.println("</html>");
-                
-                //============================================================
-                //ASCENDE LED & LIGA LED
-                //============================================================
-                
-                if(led == 1){
-                  digitalWrite(pinLed1, HIGH);
-                }
+                  client.println("HTTP/1.1 200 OK");
+                  client.println("Content-Type: text/html");
+                  client.println("Connection: close");
+                  client.println("Refresh: 2"); //Recarrega a pagina a cada 2seg
+                  client.println();
+                  client.println("<!DOCTYPE HTML>");
+                  client.println("<html>");
+                  //Configura o texto e imprime o titulo no browser
+                  client.print("<font color=#FF0000><b><u>");
+                  client.print("Envio de informacoes pela rede utilizando Arduino");
+                  client.print("</u></b></font>");
+                  client.println("<br />");
+                  client.println("<form align=\"center\">");
+                  client.println("<label style=\"font-size: 18pt;\">"+msg+"</label>");
+                  client.println("<br>");
+                  client.println("<br>");
+                  client.println("<button type=\"submit\" formaction=\"ledon\">Ligar</button>");//Button HTML5
+                  client.println("<button type=\"submit\" formaction=\"ledof\">Desligar</button>");//Button HTML5
+                  client.println("</form>");
+                  client.println("</html>");
 
-                if(led == 0){
-                  digitalWrite(pinLed1, LOW);
-                }
-
+                  if(led == 1){
+                    digitalWrite(pinLed1, HIGH);
+                  }
+  
+                  if(led == 0){
+                    digitalWrite(pinLed1, LOW);
+                  }
+              
                 break;
             }
 
-            if(c == '\n') {
-                currentLineIsBlank = true;
-            }
-
-            else if (c != '\r') {
-                currentLineIsBlank = false;
-            }
+          
         }
       }
 
