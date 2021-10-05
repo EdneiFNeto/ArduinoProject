@@ -27,7 +27,7 @@ manipulação de servo motores.
 comando da pagina web para o arduino.
 
 
-- [Serial Port](https://github.com/EdneiFNeto/ArduinoProject/tree/main/web-client) O objetivo destes projetos é ligar/desligar led usando API nodeJs.
+- [Serial Port](https://github.com/EdneiFNeto/ArduinoProject/tree/main/serial-port) O objetivo destes projetos é ligar/desligar led usando API nodeJs.
 
 
 
