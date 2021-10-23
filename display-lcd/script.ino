@@ -12,7 +12,7 @@ void setup()
 void loop()
 {
 	lcd.setCursor(0,1);
-  	lcd.print(" LCD 16x2");
+  	lcd.print("LCD 16x2");
   	delay(1000);
   
 }
