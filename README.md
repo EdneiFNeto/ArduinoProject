@@ -22,12 +22,11 @@ utilizando as funções tone() e noTone().
 biblioteca “Servo.h” (já existente na IDE Arduino) para a
 manipulação de servo motores. 
 
-
 - [Web Client](https://github.com/EdneiFNeto/ArduinoProject/tree/main/web-client) O objetivo destes projetos é criar uma pagina HTML e o usuário enviar 
 comando da pagina web para o arduino.
 
-
 - [Serial Port](https://github.com/EdneiFNeto/ArduinoProject/tree/main/serial-port) O objetivo destes projetos é ligar/desligar led usando API nodeJs.
 
+- [Display LCD](https://github.com/EdneiFNeto/ArduinoProject/tree/main/display-lcd) O objetivo deste projeto é exibir textos usando serial.
 
 
