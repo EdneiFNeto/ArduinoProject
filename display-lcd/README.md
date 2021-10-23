@@ -2,7 +2,7 @@
 Display LCD
 
 ## Screenshots
-![Display](../screenshot/display.png "Display")
+![Display](../screenshot/Display.png "Display")
 
 ```c
 #include <LiquidCrystal.h>
